@@ -26,7 +26,7 @@ host : `localhost:8000/api/v1/`
 username : {your_username}
 apikey : {your_api_key}
 
-##1. GET all exchange: 
+###### 1. GET all exchange: 
 Url: `localhost:8000/api/v1/exchange/?username={your_username}&api_key={your_api_key}`
 
 Its will return data like this:
@@ -69,7 +69,7 @@ Field Description:
 4. `rate` : rate for now
 
 
-##2. [POST] Exchange:
+##### 2. [POST] Exchange:
 url : `localhost:8000/api/v1/create-exchange/?username={your_username}&api_key={your_api_key}`
 
 Example body post :
